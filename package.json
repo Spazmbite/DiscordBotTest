@@ -2,9 +2,9 @@
   "name": "discordbot",
   "version": "1.0.0",
   "description": "",
-  "main": "https://wrestle-online.pl/discord-bot/bot.js",
+  "main": "server.cjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "curl -o server.cjs https://wrestle-online.pl/online/server.js",
     "start": "node .",
     "deploy:commands": "node scripts/deploy-commands.js"
   },
