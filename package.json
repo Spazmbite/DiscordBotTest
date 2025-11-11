@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.cjs",
   "scripts": {
-    "prestart": "curl -o server.cjs https://wrestle-online.pl/online/server.js",
+    "prestart": "curl -o server.cjs https://wrestle-online.pl/discord-bot/bot.js",
     "start": "node .",
     "deploy:commands": "node scripts/deploy-commands.js"
   },
